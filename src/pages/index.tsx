@@ -67,7 +67,7 @@ const Home = () => {
         <div className="absolute w-full left-0 bottom-[-120px]">
           <div className="w-5/6 mx-auto">
             <div className="grid grid-cols-5 gap-6 flex justify-around">
-              <Link href="" className=" hover:text-[#029E9D]">
+              <Link href="/tour/day-la-bai-viet-1" className=" hover:text-[color:var(--primary-color)]">
                 <div className="rounded-2xl border-white bg-white border-[10px] w-full hover:drop-shadow-[0_0_10px_rgba(0,0,0,0.25)]">
                   <div className="rounded-2xl overflow-hidden">
                     <img className="w-full" src="https://cdn.tourradar.com/s3/content-pages/391/438x292/V2aYSJ.jpg" alt="" />
@@ -75,7 +75,7 @@ const Home = () => {
                   <h5 className="px-4 pb-2 pt-4 font-semibold">Hiking & Trekking</h5>
                 </div>
               </Link>
-              <Link href="" className=" hover:text-[#029E9D]">
+              <Link href="/tour/day-la-bai-viet-1" className=" hover:text-[color:var(--primary-color)]">
                 <div className="rounded-2xl border-white bg-white border-[10px] w-full hover:drop-shadow-[0_0_10px_rgba(0,0,0,0.25)]">
                   <div className="rounded-2xl overflow-hidden">
                     <img className="w-full" src="https://cdn.tourradar.com/s3/content-pages/391/438x292/V2aYSJ.jpg" alt="" />
@@ -83,7 +83,7 @@ const Home = () => {
                   <h5 className="px-4 pb-2 pt-4 font-semibold">Hiking & Trekking</h5>
                 </div>
               </Link>
-              <Link href="" className=" hover:text-[#029E9D]">
+              <Link href="/tour/day-la-bai-viet-1" className=" hover:text-[color:var(--primary-color)]">
                 <div className="rounded-2xl border-white bg-white border-[10px] w-full hover:drop-shadow-[0_0_10px_rgba(0,0,0,0.25)]">
                   <div className="rounded-2xl overflow-hidden">
                     <img className="w-full" src="https://cdn.tourradar.com/s3/content-pages/391/438x292/V2aYSJ.jpg" alt="" />
@@ -91,7 +91,7 @@ const Home = () => {
                   <h5 className="px-4 pb-2 pt-4 font-semibold">Hiking & Trekking</h5>
                 </div>
               </Link>
-              <Link href="" className=" hover:text-[#029E9D]">
+              <Link href="/tour/day-la-bai-viet-1" className=" hover:text-[color:var(--primary-color)]">
                 <div className="rounded-2xl border-white bg-white border-[10px] w-full hover:drop-shadow-[0_0_10px_rgba(0,0,0,0.25)]">
                   <div className="rounded-2xl overflow-hidden">
                     <img className="w-full" src="https://cdn.tourradar.com/s3/content-pages/391/438x292/V2aYSJ.jpg" alt="" />
@@ -99,7 +99,7 @@ const Home = () => {
                   <h5 className="px-4 pb-2 pt-4 font-semibold">Hiking & Trekking</h5>
                 </div>
               </Link>
-              <Link href="" className=" hover:text-[#029E9D]">
+              <Link href="/tour/day-la-bai-viet-1" className=" hover:text-[color:var(--primary-color)]">
                 <div className="rounded-2xl border-white bg-white border-[10px] w-full hover:drop-shadow-[0_0_10px_rgba(0,0,0,0.25)]">
                   <div className="rounded-2xl overflow-hidden">
                     <img className="w-full" src="https://cdn.tourradar.com/s3/content-pages/391/438x292/V2aYSJ.jpg" alt="" />
@@ -116,7 +116,7 @@ const Home = () => {
       {/* Top destination */}
       <div className="container">
         <div className="text-center">
-          <h1 className="text-2xl text-[#029E9D] font-bold mb-6">Top Destination</h1>
+          <h1 className="text-2xl text-[color:var(--primary-color)] font-bold mb-6">Top Destination</h1>
           <h3 className="text-5xl font-medium mb-8">Explore Top Destinations</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
         </div>
@@ -127,7 +127,7 @@ const Home = () => {
               <div className="absolute left-0 top-0 flex flex-col justify-end w-full h-full p-4">
                 <div className="flex items-center justify-between">
                   <div>
-                    <h3 className='text-2xl text-[#029E9D] font-bold line-clamp-1'>Italy</h3>
+                    <h3 className='text-2xl text-[color:var(--primary-color)] font-bold line-clamp-1'>Italy</h3>
                     <p className='text-3xl text-white font-medium line-clamp-1'>Caspian Valley</p>
                   </div>
                   <p className="px-3 py-1 bg-cyan-500 rounded-xl text-white">
@@ -144,7 +144,7 @@ const Home = () => {
                 <div className="absolute left-0 top-0 flex flex-col justify-end w-full h-full p-4">
                   <div className="flex items-center justify-between">
                     <div>
-                      <h3 className='text-2xl text-[#029E9D] font-bold line-clamp-1'>Italy</h3>
+                      <h3 className='text-2xl text-[color:var(--primary-color)] font-bold line-clamp-1'>Italy</h3>
                       <p className='text-3xl text-white font-medium line-clamp-1'>Caspian Valley</p>
                     </div>
                     <p className="px-3 py-1 bg-cyan-500 rounded-xl text-white">
@@ -159,7 +159,7 @@ const Home = () => {
                 <div className="absolute left-0 top-0 flex flex-col justify-end w-full h-full p-4">
                   <div className="flex items-center justify-between">
                     <div>
-                      <h3 className='text-2xl text-[#029E9D] font-bold line-clamp-1'>Italy</h3>
+                      <h3 className='text-2xl text-[color:var(--primary-color)] font-bold line-clamp-1'>Italy</h3>
                       <p className='text-3xl text-white font-medium line-clamp-1'>Caspian Valley</p>
                     </div>
                     <p className="px-3 py-1 bg-cyan-500 rounded-xl text-white">
@@ -174,7 +174,7 @@ const Home = () => {
                 <div className="absolute left-0 top-0 flex flex-col justify-end w-full h-full p-4">
                   <div className="flex items-center justify-between">
                     <div>
-                      <h3 className='text-2xl text-[#029E9D] font-bold line-clamp-1'>Italy</h3>
+                      <h3 className='text-2xl text-[color:var(--primary-color)] font-bold line-clamp-1'>Italy</h3>
                       <p className='text-3xl text-white font-medium line-clamp-1'>Caspian Valley</p>
                     </div>
                     <p className="px-3 py-1 bg-cyan-500 rounded-xl text-white">
@@ -188,7 +188,7 @@ const Home = () => {
                 <div className="absolute left-0 top-0 flex flex-col justify-end w-full h-full p-4">
                   <div className="flex items-center justify-between">
                     <div>
-                      <h3 className='text-2xl text-[#029E9D] font-bold line-clamp-1'>Italy</h3>
+                      <h3 className='text-2xl text-[color:var(--primary-color)] font-bold line-clamp-1'>Italy</h3>
                       <p className='text-3xl text-white font-medium line-clamp-1'>Caspian Valley</p>
                     </div>
                     <p className="px-3 py-1 bg-cyan-500 rounded-xl text-white">
@@ -208,7 +208,7 @@ const Home = () => {
       {/* Best Tours Packages */}
       <div className="container pt-12">
         <div>
-          <h1 className="text-2xl text-[#029E9D] font-bold mb-6">Top Pick</h1>
+          <h1 className="text-2xl text-[color:var(--primary-color)] font-bold mb-6">Top Pick</h1>
           <h3 className="text-5xl font-medium mb-8">Best Tour Packages  </h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
         </div>
@@ -223,7 +223,7 @@ const Home = () => {
             <div className="">
               <div className="p-4">
                 <div className="flex flex-col gap-4 pb-4 border-b border-dotted">
-                  <h3 className='text-[#029E9D] text-fg font-semibold'>Croatia</h3>
+                  <h3 className='text-[color:var(--primary-color)] text-fg font-semibold'>Croatia</h3>
                   <h4 className='text-3xl font-semibold'>Piazza Castello</h4>
                   <p>Duis aute irure dolor in reprehenderit in voluptate velit
                     esse cillum</p>
@@ -249,7 +249,7 @@ const Home = () => {
             <div className="">
               <div className="p-4">
                 <div className="flex flex-col gap-4 pb-4 border-b border-dotted">
-                  <h3 className='text-[#029E9D] text-fg font-semibold'>Croatia</h3>
+                  <h3 className='text-[color:var(--primary-color)] text-fg font-semibold'>Croatia</h3>
                   <h4 className='text-3xl font-semibold'>Piazza Castello</h4>
                   <p>Duis aute irure dolor in reprehenderit in voluptate velit
                     esse cillum</p>
@@ -274,7 +274,7 @@ const Home = () => {
             <div className="">
               <div className="p-4">
                 <div className="flex flex-col gap-4 pb-4 border-b border-dotted">
-                  <h3 className='text-[#029E9D] text-fg font-semibold'>Croatia</h3>
+                  <h3 className='text-[color:var(--primary-color)] text-fg font-semibold'>Croatia</h3>
                   <h4 className='text-3xl font-semibold'>Piazza Castello</h4>
                   <p>Duis aute irure dolor in reprehenderit in voluptate velit
                     esse cillum</p>
@@ -299,7 +299,7 @@ const Home = () => {
             <div className="">
               <div className="p-4">
                 <div className="flex flex-col gap-4 pb-4 border-b border-dotted">
-                  <h3 className='text-[#029E9D] text-fg font-semibold'>Croatia</h3>
+                  <h3 className='text-[color:var(--primary-color)] text-fg font-semibold'>Croatia</h3>
                   <h4 className='text-3xl font-semibold'>Piazza Castello</h4>
                   <p>Duis aute irure dolor in reprehenderit in voluptate velit
                     esse cillum</p>
@@ -324,7 +324,7 @@ const Home = () => {
             <div className="">
               <div className="p-4">
                 <div className="flex flex-col gap-4 pb-4 border-b border-dotted">
-                  <h3 className='text-[#029E9D] text-fg font-semibold'>Croatia</h3>
+                  <h3 className='text-[color:var(--primary-color)] text-fg font-semibold'>Croatia</h3>
                   <h4 className='text-3xl font-semibold'>Piazza Castello</h4>
                   <p>Duis aute irure dolor in reprehenderit in voluptate velit
                     esse cillum</p>
@@ -345,7 +345,7 @@ const Home = () => {
       {/* Tour Guides */}
       <div className="container pt-12">
         <div className='text-center'>
-          <h1 className="text-2xl text-[#029E9D] font-bold mb-6">Tour Guides</h1>
+          <h1 className="text-2xl text-[color:var(--primary-color)] font-bold mb-6">Tour Guides</h1>
           <h3 className="text-5xl font-medium mb-8">Meet Our Excellent Guides</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
         </div>
@@ -408,7 +408,7 @@ const Home = () => {
       {/* Blog */}
       <div className="container pt-12">
         <div className='text-center'>
-          <h1 className="text-2xl text-[#029E9D] font-bold mb-6">Our Blogs Offers</h1>
+          <h1 className="text-2xl text-[color:var(--primary-color)] font-bold mb-6">Our Blogs Offers</h1>
           <h3 className="text-5xl font-medium mb-8">Recent Articles & Posts</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
         </div>
@@ -423,7 +423,7 @@ const Home = () => {
             <div className="">
               <div className="p-4">
                 <div className="flex flex-col gap-4 pb-4">
-                  <h3 className='text-[#029E9D] text-fg font-semibold'>Techology</h3>
+                  <h3 className='text-[color:var(--primary-color)] text-fg font-semibold'>Techology</h3>
                   <h4 className='text-3xl font-semibold'>how a developer dou at deutsche bank keep remote alive</h4>
                   <p>Duis aute irure dolor in reprehenderit in voluptate velit
                     esse cillum</p>
@@ -452,7 +452,7 @@ const Home = () => {
             <div className="">
               <div className="p-4">
                 <div className="flex flex-col gap-4 pb-4">
-                  <h3 className='text-[#029E9D] text-fg font-semibold'>Techology</h3>
+                  <h3 className='text-[color:var(--primary-color)] text-fg font-semibold'>Techology</h3>
                   <h4 className='text-3xl font-semibold'>how a developer dou at deutsche bank keep remote alive</h4>
                   <p>Duis aute irure dolor in reprehenderit in voluptate velit
                     esse cillum</p>
@@ -477,4 +477,3 @@ const Home = () => {
   );
 }
 export default Home;
-Home.Layout = "Default"

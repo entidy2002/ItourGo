@@ -1,8 +1,8 @@
 import React, { PropsWithChildren } from "react";
 import Head from 'next/head'
 
-import Header from "~/components/common/Header";
-import Footer from "~/components/common/Footer";
+import Header from "~/layout/common/Header";
+import Footer from "~/layout/common/Footer";
 const DefaultLayout = ({ children }: PropsWithChildren) => {
         return (
                 <>

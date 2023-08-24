@@ -3,9 +3,11 @@ import type { Config } from 'tailwindcss'
 const config: Config = {
   content: [
     './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/**/*.{js,ts,jsx,tsx,mdx}',
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
-    'node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}'
+    'node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}',
+    "./node_modules/react-tailwindcss-datepicker/dist/index.esm.js",
 
   ],
   theme: {
@@ -16,6 +18,9 @@ const config: Config = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
     },
+  },
+  colors: {
+    'primary-color': '#029E9D',
   },
   plugins: [require('flowbite/plugin')],
 

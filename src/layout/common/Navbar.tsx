@@ -70,7 +70,7 @@ const Navbar = () => {
         };
 
         return (
-                <div className="w-full flex text-[14px] h-[40px] bg-[#029E9D] text-white">
+                <div className="w-full flex text-[14px] h-[40px] bg-[color:var(--primary-color)] text-white">
                         <div className="container flex items-center justify-between font-medium">
                                 <div className="flex items-center gap-5">
                                         <Link href="" className="flex items-center gap-1"><BsCalendarWeek />Tuesday, Aug 15 2023</Link>

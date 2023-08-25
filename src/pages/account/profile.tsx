@@ -93,5 +93,4 @@ const Profile = () => {
         );
 }
 export default Profile;
-Profile.Layout = "Default"
 

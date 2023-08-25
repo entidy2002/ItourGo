@@ -137,7 +137,7 @@ const Header = () => {
                                                         <AiOutlineUser />
                                                         <span>Login / Register</span>
                                                 </Link>
-                                                <button className="rounded-xl px-6 py-3 text-white bg-[color:var(--primary-color)]">Book now</button>
+                                                <Link href="/account/profile" className="rounded-xl px-6 py-3 text-white bg-[color:var(--primary-color)]">Book now</Link>
                                         </div>
                                 </div>
                         </div>

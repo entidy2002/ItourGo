@@ -122,8 +122,8 @@ const Home = () => {
         </div>
         <div className="flex gap-8 mt-12">
           <div className="w-2/5">
-            <div className="w-full h-full overflow-hidden relative rounded-2xl">
-              <div className="relative bg-no-repeat bg-center bg-cover h-full w-full" style={{ backgroundImage: 'url("https://htmldesigntemplates.com/html/travelin/images/destination/destination1.jpg")' }}></div>
+            <Link href="/tour/day-la-bai-viet-1" className="w-full h-full overflow-hidden relative rounded-2xl">
+              <div className="bg-no-repeat bg-center bg-cover h-full w-full overflow-hidden rounded-2xl" style={{ backgroundImage: 'url("https://htmldesigntemplates.com/html/travelin/images/destination/destination1.jpg")' }}></div>
               <div className="absolute left-0 top-0 flex flex-col justify-end w-full h-full p-4">
                 <div className="flex items-center justify-between">
                   <div>
@@ -136,11 +136,11 @@ const Home = () => {
                 </div>
 
               </div>
-            </div>
+            </Link>
           </div>
           <div className="flex-1">
             <div className="flex grid grid-cols-2 gap-8">
-              <div className="w-full pt-[100%] overflow-hidden relative rounded-2xl bg-no-repeat bg-center bg-cover" style={{ backgroundImage: 'url("https://htmldesigntemplates.com/html/travelin/images/destination/destination17.jpg")' }}>
+              <Link href="/tour/day-la-bai-viet-1" className="w-full pt-[100%] overflow-hidden relative rounded-2xl bg-no-repeat bg-center bg-cover" style={{ backgroundImage: 'url("https://htmldesigntemplates.com/html/travelin/images/destination/destination17.jpg")' }}>
                 <div className="absolute left-0 top-0 flex flex-col justify-end w-full h-full p-4">
                   <div className="flex items-center justify-between">
                     <div>
@@ -153,9 +153,9 @@ const Home = () => {
                   </div>
 
                 </div>
-              </div>
+              </Link>
 
-              <div className="w-full pt-[100%] overflow-hidden relative rounded-2xl bg-no-repeat bg-center bg-cover" style={{ backgroundImage: 'url("https://htmldesigntemplates.com/html/travelin/images/destination/destination17.jpg")' }}>
+              <Link href="/tour/day-la-bai-viet-1" className="w-full pt-[100%] overflow-hidden relative rounded-2xl bg-no-repeat bg-center bg-cover" style={{ backgroundImage: 'url("https://htmldesigntemplates.com/html/travelin/images/destination/destination17.jpg")' }}>
                 <div className="absolute left-0 top-0 flex flex-col justify-end w-full h-full p-4">
                   <div className="flex items-center justify-between">
                     <div>
@@ -168,9 +168,9 @@ const Home = () => {
                   </div>
 
                 </div>
-              </div>
+              </Link>
 
-              <div className="w-full pt-[100%] overflow-hidden relative rounded-2xl bg-no-repeat bg-center bg-cover" style={{ backgroundImage: 'url("https://htmldesigntemplates.com/html/travelin/images/destination/destination17.jpg")' }}>
+              <Link href="/tour/day-la-bai-viet-1" className="w-full pt-[100%] overflow-hidden relative rounded-2xl bg-no-repeat bg-center bg-cover" style={{ backgroundImage: 'url("https://htmldesigntemplates.com/html/travelin/images/destination/destination17.jpg")' }}>
                 <div className="absolute left-0 top-0 flex flex-col justify-end w-full h-full p-4">
                   <div className="flex items-center justify-between">
                     <div>
@@ -183,8 +183,8 @@ const Home = () => {
                   </div>
 
                 </div>
-              </div>
-              <div className="w-full pt-[100%] overflow-hidden relative rounded-2xl bg-no-repeat bg-center bg-cover" style={{ backgroundImage: 'url("https://htmldesigntemplates.com/html/travelin/images/destination/destination1.jpg")' }}>
+              </Link>
+              <Link href="/tour/day-la-bai-viet-1" className="w-full pt-[100%] overflow-hidden relative rounded-2xl bg-no-repeat bg-center bg-cover" style={{ backgroundImage: 'url("https://htmldesigntemplates.com/html/travelin/images/destination/destination1.jpg")' }}>
                 <div className="absolute left-0 top-0 flex flex-col justify-end w-full h-full p-4">
                   <div className="flex items-center justify-between">
                     <div>
@@ -197,7 +197,7 @@ const Home = () => {
                   </div>
 
                 </div>
-              </div>
+              </Link>
             </div>
 
           </div>
@@ -213,7 +213,7 @@ const Home = () => {
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
         </div>
         <div className="flex grid grid-cols-3 gap-8 mt-12">
-          <div className="overflow-hidden rounded-2xl bg-white drop-shadow-[0_0_10px_rgba(0,0,0,0.25)]">
+          <Link href="/tour/day-la-bai-viet-1" className="overflow-hidden rounded-2xl bg-white drop-shadow-[0_0_10px_rgba(0,0,0,0.25)]">
             <div className="relative">
               <img className="w-full" src="https://htmldesigntemplates.com/html/travelin/images/trending/trending2.jpg" alt="" />
               <div className='absolute top-0 left-0 w-[150px] h-[150px]'>
@@ -237,9 +237,9 @@ const Home = () => {
                 <span>Per person</span>
               </div>
             </div>
-          </div>
+          </Link>
 
-          <div className="overflow-hidden rounded-2xl bg-white drop-shadow-[0_0_10px_rgba(0,0,0,0.25)]">
+          <Link href="/tour/day-la-bai-viet-1" className="overflow-hidden rounded-2xl bg-white drop-shadow-[0_0_10px_rgba(0,0,0,0.25)]">
             <div className="relative">
               <img className="w-full" src="https://htmldesigntemplates.com/html/travelin/images/trending/trending2.jpg" alt="" />
               <div className='absolute top-0 left-0 w-[150px] h-[150px]'>
@@ -263,8 +263,8 @@ const Home = () => {
                 <span>Per person</span>
               </div>
             </div>
-          </div>
-          <div className="overflow-hidden rounded-2xl bg-white drop-shadow-[0_0_10px_rgba(0,0,0,0.25)]">
+          </Link>
+          <Link href="/tour/day-la-bai-viet-1" className="overflow-hidden rounded-2xl bg-white drop-shadow-[0_0_10px_rgba(0,0,0,0.25)]">
             <div className="relative">
               <img className="w-full" src="https://htmldesigntemplates.com/html/travelin/images/trending/trending2.jpg" alt="" />
               <div className='absolute top-0 left-0 w-[150px] h-[150px]'>
@@ -288,8 +288,8 @@ const Home = () => {
                 <span>Per person</span>
               </div>
             </div>
-          </div>
-          <div className="overflow-hidden rounded-2xl bg-white drop-shadow-[0_0_10px_rgba(0,0,0,0.25)]">
+          </Link>
+          <Link href="/tour/day-la-bai-viet-1" className="overflow-hidden rounded-2xl bg-white drop-shadow-[0_0_10px_rgba(0,0,0,0.25)]">
             <div className="relative">
               <img className="w-full" src="https://htmldesigntemplates.com/html/travelin/images/trending/trending2.jpg" alt="" />
               <div className='absolute top-0 left-0 w-[150px] h-[150px]'>
@@ -313,8 +313,8 @@ const Home = () => {
                 <span>Per person</span>
               </div>
             </div>
-          </div>
-          <div className="overflow-hidden rounded-2xl bg-white drop-shadow-[0_0_10px_rgba(0,0,0,0.25)]">
+          </Link>
+          <Link href="/tour/day-la-bai-viet-1" className="overflow-hidden rounded-2xl bg-white drop-shadow-[0_0_10px_rgba(0,0,0,0.25)]">
             <div className="relative">
               <img className="w-full" src="https://htmldesigntemplates.com/html/travelin/images/trending/trending2.jpg" alt="" />
               <div className='absolute top-0 left-0 w-[150px] h-[150px]'>
@@ -338,7 +338,7 @@ const Home = () => {
                 <span>Per person</span>
               </div>
             </div>
-          </div>
+          </Link>
         </div>
       </div>
 

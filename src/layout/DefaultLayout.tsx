@@ -14,7 +14,7 @@ const DefaultLayout = ({ children }: PropsWithChildren) => {
                                 <meta name="description" content="Entidy .'s personal information website"></meta>
                         </Head>
                         <Header />
-                        <main className="w-full min-h-screen">
+                        <main className="w-full">
                                 {children}
                         </main>
                         <Footer />

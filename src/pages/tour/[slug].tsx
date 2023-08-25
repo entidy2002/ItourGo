@@ -4,17 +4,18 @@ import React from 'react'
 import Link from 'next/link'
 import { MdLocationOn } from "react-icons/md"
 import { GoClock } from "react-icons/go"
+import { BsCheckLg } from "react-icons/bs"
 import { BiBus, BiSolidPlane, BiSolidLike, BiShareAlt } from "react-icons/bi"
-
+import { HiOutlineInformationCircle } from "react-icons/hi"
 const TourDetail = () => {
         return (
                 <div className="container">
                         <div className="w-full p-5 rounded-xl">
-                                <h2>Four Islands Excursion in South Phu Quoc - Day Tour</h2>
+                                <h2 className="mb-3 text-[color:var(--primary-color)] text-4xl font-bold">Four Islands Excursion in South Phu Quoc - Day Tour</h2>
                                 <div className="flex gap-12">
-                                        <div className="w-3/5">
+                                        <div className="w-2/3">
                                                 {/* Thông tin tour */}
-                                                <div className="flex justify-between items-center mt-3 bg-gray-100 rounded-sm p-5">
+                                                <div className="flex justify-between items-center bg-gray-100 rounded-sm p-5">
                                                         <div className="flex gap-4 items-center">
                                                                 <div className="flex gap-2 items-center">
                                                                         <MdLocationOn />
@@ -263,8 +264,81 @@ const TourDetail = () => {
 
                                         </div>
                                         <div className="flex-1">
-                                                <div className="">
-                                                        hi
+                                                <div className="bg-white rounded-sm p-4 drop-shadow-[0_0_10px_rgba(0,0,0,0.25)] rounded-lg mb-3">
+                                                        <h3 className="mb-3 text-[color:var(--primary-color)] text-xl font-bold">Lịch khởi hành & Giá</h3>
+                                                        <p className="">Chọn ngày khời hành:</p>
+                                                        <div className="flex justify-between mt-3">
+                                                                <button className='p-3 border rounded border-teal-500'>28/08</button>
+                                                                <button className='p-3 border rounded'>29/08</button>
+                                                                <button className='p-3 border rounded'>30/08</button>
+                                                                <button className='p-3 border rounded'>Tất cả</button>
+                                                        </div>
+                                                        <div className='p-3 flex items-center justify-between border rounded-lg mt-3'>
+                                                                <span>Người lớn</span>
+                                                                <span className='text-orange-500 font-medium text-xl'>x 12.000.000</span>
+                                                                <div className='flex items-center gap-6 text-xl'>
+                                                                        <button className='font-semibold'>+</button>
+                                                                        <span>1</span>
+                                                                        <button className='font-semibold'>-</button>
+                                                                </div>
+                                                        </div>
+                                                        <div className='p-3 flex items-center justify-between border rounded-lg mt-3'>
+                                                                <span>Trẻ em</span>
+                                                                <span className='text-orange-500 font-medium text-xl'>x 12.000.000</span>
+                                                                <div className='flex items-center gap-6 text-xl'>
+                                                                        <button className='font-semibold'>+</button>
+                                                                        <span>1</span>
+                                                                        <button className='font-semibold'>-</button>
+                                                                </div>
+                                                        </div>
+                                                        <p className='flex items-center mt-3 gap-3 text-[color:var(--primary-color)]'><HiOutlineInformationCircle /><span>Liên hệ để xác nhận chỗ</span></p>
+                                                        <div className="mt-3">
+                                                                <p className="flex justify-between mt-2 items-center">
+                                                                        <span>Phụ thu phòng đơn</span>
+                                                                        <span className="text-orange-500">+ 2.000.000 VNĐ</span>
+                                                                </p>
+                                                                <p className="flex justify-between mt-2 items-center">
+                                                                        <span>Giá gốc</span>
+                                                                        <span className="line-through">2.000.000 VNĐ</span>
+                                                                </p>
+                                                                <p className="flex justify-between mt-2 items-center">
+                                                                        <span>Tổng cộng</span>
+                                                                        <span className="font-medium text-2xl text-orange-500">20.000.000 VNĐ</span>
+                                                                </p>
+                                                        </div>
+                                                        <div className="flex grid grid-cols-2 gap-4 mt-5">
+                                                                <Link className="border border-[color:var(--primary-color)] bg-white p-3 text-center text-[color:var(--primary-color)] rounded font-bold text-lg" href="">Đặt cọc</Link>
+                                                                <Link className="bg-[color:var(--primary-color)] p-3 text-center text-white rounded font-bold text-lg" href="/user/payment">Yêu cầu đặt</Link>
+
+                                                        </div>
+                                                </div>
+                                                <div className="bg-white rounded-sm p-4 drop-shadow-[0_0_10px_rgba(0,0,0,0.25)] rounded-lg mb-3">
+                                                        <div className="flex grid grid-cols-2 gap-4">
+                                                                <div className="flex items-center gap-2 w-full">
+                                                                        <BsCheckLg className="text-[color:var(--primary-color)]" />
+                                                                        <span>Bảo hiểm</span>
+                                                                </div>
+                                                                <div className="flex items-center gap-2 w-full">
+                                                                        <BsCheckLg className="text-[color:var(--primary-color)]" />
+                                                                        <span>Bữa ăn</span>
+                                                                </div>
+                                                                <div className="flex items-center gap-2 w-full">
+                                                                        <BsCheckLg className="text-[color:var(--primary-color)]" />
+                                                                        <span>Hướng dẫn viên</span>
+                                                                </div>
+                                                                <div className="flex items-center gap-2 w-full">
+                                                                        <BsCheckLg className="text-[color:var(--primary-color)]" />
+                                                                        <span>Khách sạn 3-4*</span>
+                                                                </div>
+                                                                <div className="flex items-center gap-2 w-full">
+                                                                        <BsCheckLg className="text-[color:var(--primary-color)]" />
+                                                                        <span>Vé tham quan</span>
+                                                                </div>
+                                                                <div className="flex items-center gap-2 w-full">
+                                                                        <BsCheckLg className="text-[color:var(--primary-color)]" />
+                                                                        <span>Xe đưa đón</span>
+                                                                </div>
+                                                        </div>
                                                 </div>
                                         </div>
 

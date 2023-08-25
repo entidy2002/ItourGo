@@ -1,4 +1,4 @@
-import { Fragment, useLayoutEffect, useState, useContext } from "react"
+import { Fragment, useState, useContext } from "react"
 import Link from "next/link"
 import { Checkbox, Label, Button, TextInput, Tooltip } from "flowbite-react"
 
@@ -13,12 +13,7 @@ const Payment = () => {
         const [quantity, setQuantity] = useState(1)
         const [price, setPrice] = useState(150000)
         const [total, setTotal] = useState(price)
-        useLayoutEffect(() => {
-                if (quantity <= 1) {
-                        setQuantity(1)
-                }
-                setTotal(quantity * price)
-        }, [quantity])
+
         return (
                 <div>
                         <div className="bg-[#f5f5f5] py-5">

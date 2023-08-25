@@ -1,4 +1,4 @@
-import { Fragment, useEffect, useLayoutEffect, useState } from "react"
+import { Fragment, useEffect, useState } from "react"
 import Link from "next/link"
 import { Checkbox, Label, Button } from "flowbite-react"
 import { BiStar, BiPlus, BiMinus } from "react-icons/bi"
@@ -12,12 +12,7 @@ const Cart = () => {
         const [total, setTotal] = useState(price)
         const [selectAll, setSelectAll] = useState(false)
         let arrOrder: any = []
-        useLayoutEffect(() => {
-                if (quantity <= 1) {
-                        setQuantity(1)
-                }
-                setTotal(quantity * price)
-        }, [quantity])
+
         // useEffect(() => {
         //         entidyAPI.get('/user/cart')
         //                 .then((res) => {

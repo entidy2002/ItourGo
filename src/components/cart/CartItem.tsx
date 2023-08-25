@@ -1,4 +1,4 @@
-import { useState, useLayoutEffect, useEffect } from "react"
+import { useState, useEffect } from "react"
 import Link from "next/link"
 
 import { Checkbox } from "flowbite-react"
@@ -14,12 +14,7 @@ const CartItem = ({ item, handleSelect, selectAll, handleLoadAgain }: any) => {
         const [quantity, setQuantity] = useState(item.quantity)
         const [total, setTotal] = useState(priceItem * quantity)
         const [checked, setChecked] = useState(false)
-        useLayoutEffect(() => {
-                if (quantity <= 1) {
-                        setQuantity(1)
-                }
-                setTotal(quantity * priceItem)
-        }, [quantity])
+
         const handleChecked = () => {
                 setChecked(!checked)
         }

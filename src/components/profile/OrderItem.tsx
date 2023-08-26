@@ -16,7 +16,7 @@ const Item = () => {
                                                         <span>[Mã TOPMAY giảm đến 25k đơn 150k] Áo thun Drew local brand phông Gấu Hồng Lotso Unisex nam nữ bigsize Love Studio</span>
                                                         <p className="my-3">Phân loại hàng: Drew gấu trắng A089</p>
                                                         <div>x1</div>
-                                                        <Link href="" className="border border-[var(--text-primary)] text-sm py-1 px-2">7 ngày trả hàng</Link>
+                                                        <Link href="/" className="border border-[var(--text-primary)] text-sm py-1 px-2">7 ngày trả hàng</Link>
                                                 </div>
                                                 <span>99.000đ</span>
                                         </div>
@@ -32,13 +32,13 @@ const Item = () => {
                                                 <span>Đánh giá ngay và nhận 200 Xu</span>
                                         </div>
                                         <div className="flex gap-4">
-                                                <Link href="">
+                                                <Link href="/">
                                                         <button className="h-[38px] px-6 rounded-[4px] text-white bg-[var(--text-primary)]">Đánh giá</button>
                                                 </Link>
-                                                <Link href="">
+                                                <Link href="/">
                                                         <button className="h-[38px] px-6 rounded-[4px] border">Liên hệ người bán</button>
                                                 </Link>
-                                                <Link href="">
+                                                <Link href="/">
                                                         <button className="h-[38px] px-6 rounded-[4px] border">Mua lại</button>
                                                 </Link>
                                         </div>

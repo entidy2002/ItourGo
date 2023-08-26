@@ -13,30 +13,30 @@ const Footer = () => {
                                                 <div>
                                                         <p className="uppercase text-black">Về ItourGo</p>
                                                         <div className='flex flex-col gap-2 text-sm mt-2'>
-                                                                <Link href="">Chúng tôi</Link>
-                                                                <Link href="">ItourGo Blog</Link>
-                                                                <Link href="">Tư vấn miễn phí</Link>
+                                                                <Link href="/">Chúng tôi</Link>
+                                                                <Link href="/">ItourGo Blog</Link>
+                                                                <Link href="/">Tư vấn miễn phí</Link>
                                                         </div>
                                                 </div>
                                                 <div>
                                                         <p className="uppercase text-black">Thông Tin Cần Biết</p>
                                                         <div className='flex flex-col gap-2 text-sm mt-2'>
-                                                                <Link href="">Điều kiện và điều khoản</Link>
-                                                                <Link href="">Quy chế hoạt động</Link>
-                                                                <Link href="">Câu hỏi thường gặp</Link>
+                                                                <Link href="/">Điều kiện và điều khoản</Link>
+                                                                <Link href="/">Quy chế hoạt động</Link>
+                                                                <Link href="/">Câu hỏi thường gặp</Link>
                                                         </div>
                                                 </div>
                                                 <div>
                                                         <p className="uppercase text-black">Đối tượng liên kết</p>
                                                         <div className='flex flex-col gap-2 text-sm mt-2'>
-                                                                <Link href="">Vietnam Airlines</Link>
-                                                                <Link href="">VNExpress</Link>
+                                                                <Link href="/">Vietnam Airlines</Link>
+                                                                <Link href="/">VNExpress</Link>
                                                         </div>
                                                 </div>
                                                 <div>
                                                         <p className="uppercase text-black">Được chứng nhận</p>
                                                         <div className='flex flex-col gap-2 text-sm mt-2'>
-                                                                <Link href=""><img className='w-full' src="https://www.ivivu.com/du-lich/content/img/bocongthuong.png" alt="" /></Link>
+                                                                <Link href="/"><img className='w-full' src="https://www.ivivu.com/du-lich/content/img/bocongthuong.png" alt="" /></Link>
                                                         </div>
                                                 </div>
                                         </div>

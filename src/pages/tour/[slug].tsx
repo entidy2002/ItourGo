@@ -46,11 +46,11 @@ const TourDetail = () => {
                                                                 <div className="flex justify-between items-center">
                                                                         <h2 className="text-3xl font-medium text-[#003C71]">Trung Hoa Cổ Kính</h2>
                                                                         <div className="flex gap-3">
-                                                                                <Link href="" className="flex gap-1 text-white font-bold text-[12px] rounded-lg items-center px-2 py-1 bg-[#1877F2]">
+                                                                                <Link href="/tour/day-la-bai-viet-2" className="flex gap-1 text-white font-bold text-[12px] rounded-lg items-center px-2 py-1 bg-[#1877F2]">
                                                                                         <BiSolidLike color="white" />
                                                                                         <span>Thích</span>
                                                                                 </Link>
-                                                                                <Link href="" className="flex gap-1 text-white font-bold text-[12px] rounded-lg items-center px-2 py-1 bg-[#1877F2]">
+                                                                                <Link href="/tour/day-la-bai-viet-2" className="flex gap-1 text-white font-bold text-[12px] rounded-lg items-center px-2 py-1 bg-[#1877F2]">
                                                                                         <BiShareAlt color="white" />
                                                                                         <span>Chia sẻ</span>
                                                                                 </Link>
@@ -186,11 +186,11 @@ const TourDetail = () => {
                                                                 <div className="flex justify-between items-center">
                                                                         <h2 className="text-3xl font-medium text-[#003C71]">Trung Hoa Cổ Kính</h2>
                                                                         <div className="flex gap-3">
-                                                                                <Link href="" className="flex gap-1 text-white font-bold text-[12px] rounded-lg items-center px-2 py-1 bg-[#1877F2]">
+                                                                                <Link href="/tour/day-la-bai-viet-2" className="flex gap-1 text-white font-bold text-[12px] rounded-lg items-center px-2 py-1 bg-[#1877F2]">
                                                                                         <BiSolidLike color="white" />
                                                                                         <span>Thích</span>
                                                                                 </Link>
-                                                                                <Link href="" className="flex gap-1 text-white font-bold text-[12px] rounded-lg items-center px-2 py-1 bg-[#1877F2]">
+                                                                                <Link href="/tour/day-la-bai-viet-2" className="flex gap-1 text-white font-bold text-[12px] rounded-lg items-center px-2 py-1 bg-[#1877F2]">
                                                                                         <BiShareAlt color="white" />
                                                                                         <span>Chia sẻ</span>
                                                                                 </Link>
@@ -307,7 +307,7 @@ const TourDetail = () => {
                                                                 </p>
                                                         </div>
                                                         <div className="flex grid grid-cols-2 gap-4 mt-5">
-                                                                <Link className="border border-[color:var(--primary-color)] bg-white p-3 text-center text-[color:var(--primary-color)] rounded font-bold text-lg" href="">Đặt cọc</Link>
+                                                                <Link className="border border-[color:var(--primary-color)] bg-white p-3 text-center text-[color:var(--primary-color)] rounded font-bold text-lg" href="/user/payment">Đặt cọc</Link>
                                                                 <Link className="bg-[color:var(--primary-color)] p-3 text-center text-white rounded font-bold text-lg" href="/user/payment">Yêu cầu đặt</Link>
 
                                                         </div>
@@ -354,7 +354,7 @@ const TourDetail = () => {
                                 <div className="p-3 bg-white rounded-sm p-4 drop-shadow-[0_0_10px_rgba(0,0,0,0.25)] border mt-4">
                                         <h3 className='font-semibold text-xl'>Tour liên quan</h3>
                                         <div className="grid grid-cols-3 mt-6 flex gap-6">
-                                                <Link href="" className='hover:bg-teal-100'>
+                                                <Link href="/tour/day-la-bai-viet-2" className='hover:bg-teal-100'>
                                                         <div className="w-full">
                                                                 <div className="w-full bg-no-repeat bg-center bg-cover pt-[62.5%]" style={{ backgroundImage: 'url("https://cdn2.ivivu.com/2023/02/21/15/ivivu-phat-quang-son-tu-2-360x225.gif")' }}></div>
                                                         </div>
@@ -375,7 +375,7 @@ const TourDetail = () => {
                                                                 <p className="text-end text-xl font-semibold text-[#00C1DE]">11.999.000 VNĐ</p>
                                                         </div>
                                                 </Link>
-                                                <Link href="" className='hover:bg-teal-100'>
+                                                <Link href="/tour/day-la-bai-viet-2" className='hover:bg-teal-100'>
                                                         <div className="w-full">
                                                                 <div className="w-full bg-no-repeat bg-center bg-cover pt-[62.5%]" style={{ backgroundImage: 'url("https://cdn2.ivivu.com/2023/02/21/15/ivivu-phat-quang-son-tu-2-360x225.gif")' }}></div>
                                                         </div>
@@ -396,7 +396,7 @@ const TourDetail = () => {
                                                                 <p className="text-end text-xl font-semibold text-[#00C1DE]">11.999.000 VNĐ</p>
                                                         </div>
                                                 </Link>
-                                                <Link href="" className='hover:bg-teal-100'>
+                                                <Link href="/tour/day-la-bai-viet-2" className='hover:bg-teal-100'>
                                                         <div className="w-full">
                                                                 <div className="w-full bg-no-repeat bg-center bg-cover pt-[62.5%]" style={{ backgroundImage: 'url("https://cdn2.ivivu.com/2023/02/21/15/ivivu-phat-quang-son-tu-2-360x225.gif")' }}></div>
                                                         </div>

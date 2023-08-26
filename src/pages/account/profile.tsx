@@ -45,21 +45,21 @@ const Profile = () => {
                                                         </ul>
                                                 </div>
                                                 <div onClick={handleTab} id="5" className={`${tab == 5 ? 'text-[var(--text-primary)]' : ''} flex gap-4 items-center mb-2 cursor-pointer hover:text-[var(--text-primary)]`}>
-                                                        <Link className="flex items-center gap-4" href="/account/order">
+                                                        <Link className="flex items-center gap-4" href="/account/profile">
                                                                 <BiUser />
                                                                 <span>Đơn mua</span>
                                                         </Link>
 
                                                 </div>
                                                 <div onClick={handleTab} id="6" className={`${tab == 6 ? 'text-[var(--text-primary)]' : ''} flex gap-4 items-center mb-2 cursor-pointer hover:text-[var(--text-primary)]`}>
-                                                        <Link className="flex items-center gap-4" href="/account/notification">
+                                                        <Link className="flex items-center gap-4" href="/account/profile">
                                                                 <BiUser />
                                                                 <span>Thông báo</span>
                                                         </Link>
 
                                                 </div>
                                                 <div onClick={handleTab} id="7" className={`${tab == 7 ? 'text-[var(--text-primary)]' : ''} flex gap-4 items-center mb-2 cursor-pointer hover:text-[var(--text-primary)]`}>
-                                                        <Link className="flex items-center gap-4" href="/account/voucher">
+                                                        <Link className="flex items-center gap-4" href="/account/profile">
                                                                 <BiUser />
                                                                 <span>Vourcher</span>
                                                         </Link>

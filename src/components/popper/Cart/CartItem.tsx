@@ -3,7 +3,7 @@ import Link from 'next/link';
 function CartItem({ data, onClick }: any) {
         const classes = `w-full p-3 flex justify-between items-center gap-3 font-bold-[600] hover:bg-black hover:bg-opacity-[0.05]`
         return (
-                <Link href="" className={classes} onClick={onClick}>
+                <Link href="/" className={classes} onClick={onClick}>
                         <div className="flex gap-3">
                                 <div className="w-12 h-12 bg-no-repeat bg-cover bg-center" style={{ backgroundImage: 'url("")' }}></div>
                                 <div className="flex-1">

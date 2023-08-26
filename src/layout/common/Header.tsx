@@ -40,7 +40,7 @@ const Header = () => {
                                 <div className="flex items-center h-full container justify-between">
                                         <Link href="/"><img className="h-[92px]" src="/itourgo.jpg" alt="" /></Link>
                                         <div className="flex gap-4 text-[15px]">
-                                                <Link href="" className="dropdown-hover uppercase flex items-center gap-1 relative py-3 text-[color:var(--primary-color)]">Home<MdKeyboardArrowDown fontSize={22} />
+                                                <Link href="/" className="dropdown-hover uppercase flex items-center gap-1 relative py-3 text-[color:var(--primary-color)]">Home<MdKeyboardArrowDown fontSize={22} />
                                                         <ul className="dropdown-menu hidden w-52 absolute top-[100%] bg-white drop-shadow-[0_0_10px_rgba(0,0,0,0.25)] text-black">
                                                                 <li className="p-3 border-b last:border-b-0 border-dotted hover:bg-[color:var(--primary-color)] hover:text-white">Homepage Default</li>
                                                                 <li className="p-3 border-b last:border-b-0 border-dotted hover:bg-[color:var(--primary-color)] hover:text-white">Homepage Default</li>
@@ -58,8 +58,8 @@ const Header = () => {
                                                                 </li>
                                                         </ul>
                                                 </Link>
-                                                <Link href="" className="dropdown-hover uppercase flex items-center gap-1 relative py-3">About Us</Link>
-                                                <Link href="" className="dropdown-hover uppercase flex items-center gap-1 relative py-3">Destination<MdKeyboardArrowDown fontSize={22} />
+                                                <Link href="/" className="dropdown-hover uppercase flex items-center gap-1 relative py-3">About Us</Link>
+                                                <Link href="/" className="dropdown-hover uppercase flex items-center gap-1 relative py-3">Destination<MdKeyboardArrowDown fontSize={22} />
                                                         <ul className="dropdown-menu w-52 hidden overflow-hidden absolute top-[100%] bg-white drop-shadow-[0_0_10px_rgba(0,0,0,0.25)] rounded-sm text-">
                                                                 <li className="p-3 border-b last:border-b-0 border-dotted hover:bg-[color:var(--primary-color)] hover:text-white">Homepage Default</li>
                                                                 <li className="p-3 border-b last:border-b-0 border-dotted hover:bg-[color:var(--primary-color)] hover:text-white">Homepage Default</li>
@@ -67,7 +67,7 @@ const Header = () => {
                                                                 <li className="p-3 border-b last:border-b-0 border-dotted hover:bg-[color:var(--primary-color)] hover:text-white">Homepage Default</li>
                                                         </ul>
                                                 </Link>
-                                                <Link href="" className="dropdown-hover uppercase flex items-center gap-1 relative py-3">Tours<MdKeyboardArrowDown fontSize={22} />
+                                                <Link href="/" className="dropdown-hover uppercase flex items-center gap-1 relative py-3">Tours<MdKeyboardArrowDown fontSize={22} />
                                                         <ul className="dropdown-menu hidden w-52 absolute top-[100%] bg-white drop-shadow-[0_0_10px_rgba(0,0,0,0.25)] text-black">
                                                                 <li className="p-3 border-b last:border-b-0 border-dotted hover:bg-[color:var(--primary-color)] hover:text-white">Homepage Default</li>
                                                                 <li className="p-3 border-b last:border-b-0 border-dotted hover:bg-[color:var(--primary-color)] hover:text-white">Homepage Default</li>
@@ -85,7 +85,7 @@ const Header = () => {
                                                                 </li>
                                                         </ul>
                                                 </Link>
-                                                <Link href="" className="dropdown-hover uppercase flex items-center gap-1 relative py-3">Pages<MdKeyboardArrowDown fontSize={22} />
+                                                <Link href="/" className="dropdown-hover uppercase flex items-center gap-1 relative py-3">Pages<MdKeyboardArrowDown fontSize={22} />
                                                         <ul className="dropdown-menu hidden w-52 absolute top-[100%] bg-white drop-shadow-[0_0_10px_rgba(0,0,0,0.25)] text-black">
                                                                 <li className="p-3 border-b last:border-b-0 border-dotted hover:bg-[color:var(--primary-color)] hover:text-white">Homepage Default</li>
                                                                 <li className="p-3 border-b last:border-b-0 border-dotted hover:bg-[color:var(--primary-color)] hover:text-white">Homepage Default</li>
@@ -103,7 +103,7 @@ const Header = () => {
                                                                 </li>
                                                         </ul>
                                                 </Link>
-                                                <Link href="" className="dropdown-hover uppercase flex items-center gap-1 relative py-3">blog<MdKeyboardArrowDown fontSize={22} />
+                                                <Link href="/" className="dropdown-hover uppercase flex items-center gap-1 relative py-3">blog<MdKeyboardArrowDown fontSize={22} />
                                                         <ul className="dropdown-menu hidden w-52 absolute top-[100%] bg-white drop-shadow-[0_0_10px_rgba(0,0,0,0.25)] text-black">
                                                                 <li className="p-3 border-b last:border-b-0 border-dotted hover:bg-[color:var(--primary-color)] hover:text-white">Homepage Default</li>
                                                                 <li className="p-3 border-b last:border-b-0 border-dotted hover:bg-[color:var(--primary-color)] hover:text-white">Homepage Default</li>

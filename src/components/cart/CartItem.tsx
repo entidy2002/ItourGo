@@ -71,7 +71,7 @@ const CartItem = ({ item, handleSelect, selectAll, handleLoadAgain }: any) => {
                                 <div className="py-4 border-t px-8 flex">
                                         <Checkbox className="mr-6" checked={checked && true} onChange={handleChecked} />
                                         <div className="flex gap-4">
-                                                Miễn phí vận chuyển <Link href="">Tìm hiểu thêm</Link>
+                                                Miễn phí vận chuyển <Link href="/">Tìm hiểu thêm</Link>
                                         </div>
                                 </div>
                         </div>
